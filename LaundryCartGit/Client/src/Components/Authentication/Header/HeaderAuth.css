@@ -1,0 +1,59 @@
+/* * {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.navbarContainer {
+    /* border : 1px solid black; */
+    height: 70px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* font-family: "Avenir", sans-serif; */
+    box-shadow: 0px 2px 48px #0000000f;
+    color: #565657;
+
+    /* margin-bottom: 39.13px; */
+}
+
+.navbarLogo {
+    /* border : 1px solid black; */
+    /* width: 108px; */
+    height: 27px;
+    margin-left: 119px;
+}
+
+.logoContent {
+    text-align: left;
+    font-family: "Avenir", sans-serif;
+    font-weight: bolder;
+    font-size: 27px;
+    letter-spacing: 1.8px;
+    color: #5861ae;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.navbar-btns {
+    /* border : 1px solid black; */
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.n-btns {
+    /* border : 1px solid black; */
+    height: 100%;
+    width: 112.5px;
+    font-size: 18px;
+    background-color: #ffffff;
+    border: none;
+    border-left: 1px solid rgb(221, 221, 221);
+}
+
+.navbarSignIn {
+    background-color: #5861ae;
+    color: #ffffff;
+}

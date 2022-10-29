@@ -1,0 +1,138 @@
+ .order_container{
+    display: flex;
+    border: 1px solid #EAEDF0;
+    height: 50px;
+    align-items: center;
+    }
+   
+    .eyeimg{
+        width: 20px;
+        height: 19px;
+        cursor: pointer;
+    }
+
+
+        .drawer_closebtn {
+            color: white;
+            margin-top: 10px;
+            width: 50px;
+        }
+.drawer_header {
+    height: 70px;
+    background: #5861AE 0% 0% no-repeat padding-box;
+
+    letter-spacing: 0px;
+    color: #FFFFFF;
+
+}
+.store_details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 98px;
+    background: #F4F9FF 0% 0% no-repeat padding-box;
+    width: 100%;
+}
+.store_selector {
+    width: 204px;
+    height: 27px;
+    border-bottom: 1px solid #afb3b6;
+    background: #F4F9FF 0% 0% no-repeat padding-box;
+    outline: none;
+    text-decoration: none;
+
+}
+.summary_heading {
+    color: #3B3737;
+    margin: 10px 0px 20px 60px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.summary_pricediv {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 106px;
+    align-items: center;
+    height: 45px;
+}
+.horizontal_line {
+    width: 200px;
+    float: right; 
+     margin-left: 650px;
+    color: black
+}
+.summary_totalprice {
+    width: 100%;
+    height: 49px;
+    /* UI Properties */
+    background: #5861AE 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: white;
+}
+.summary_pricediv {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 106px;
+    align-items: center;
+    height: 45px;
+}
+.summary_maintotal_heading {
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 30px
+}
+.summary_maintotal_value {
+    font-size: 22px;
+    font-weight: 600;
+}
+select {
+    background-color: #F4F9FF;
+    border: none;
+    outline: none;
+    color: #BABABA
+}
+
+.address_home {
+    border: 1px solid #5861AE;
+    width: 236px;
+    border-radius: 5px;
+    margin-left: 30px;
+    padding: 5px;
+
+}
+
+.address_container>h1 {
+
+    color: #3B3737;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 0px 20px 20px;
+}
+
+.address_home h1 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.address_home p {
+    font-size: 14px;
+    font-weight: 400;
+}
+ 
+.alert{
+    width: 200px;
+    height: 200px;
+}
+.alert header{
+    background-color: #5861AE;
+        height: 39px;
+        width: 384px;
+        margin: 0px;
+        color: white;
+        font-size: 18px;
+        display: flex;
+            justify-content: space-between;
+            align-items: center;
+}
